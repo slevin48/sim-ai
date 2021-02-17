@@ -17,7 +17,7 @@ icoFoam
 touch cavity.foam
 ```
 
-![paraview](paraview.png)
+![paraview](img/paraview.png)
 
 ### [Vortex Shedding](http://www.wolfdynamics.com/images/begtuts/vortex_shedding.tar.gz)
 ```
@@ -37,17 +37,17 @@ import numpy as np
 grid = vtki.UnstructuredGrid('./VTK/c1_1000.vtk')
 grid.plot()
 ```
-![vortex_shedding](vortex_shedding.png)
+![vortex_shedding](img/vortex_shedding.png)
 
 ## OnScale
 
 Run simulation in the Cloud on OnScale
 
-![onscale-solve-dashboard](onscale-solve-dashboard.png)
+![onscale-solve-dashboard](img/onscale-solve-dashboard.png)
 
 ### Connecting Rod
 
-![rod](onscale-rod.png)
+![rod](img/onscale-rod.png)
 
 Auto-generated code
 
@@ -99,13 +99,13 @@ https://onscale.com/blog/post-processing-with-onscale-solve/
 
 ## [PyVista](https://docs.pyvista.org/)
 
-![pyvista_banner](https://docs.pyvista.org/_static/pyvista_banner.png)
+![pyvista_banner](img/pyvista_banner.png)
 ```python
 import pyvista as pv
 mesh = pv.read('onscale/rod/Connecting_rod_Design_1_Version_1_result1.vtu')
 mesh.plot(screenshot='rod.png')
 ```
-![rod](rod.png)
+![rod](img/rod.png)
 
 ## [EZyRB](https://github.com/mathLab/EZyRB)
 
